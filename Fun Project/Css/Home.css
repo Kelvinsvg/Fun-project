@@ -1,0 +1,262 @@
+#logo{
+   color:#3D566E;
+
+}
+ .navbar-brand{
+  font-size: 30px;
+  font-family: Dosis;
+  font-weight: bold;
+  
+
+ }
+ .nav-link{
+  font-size: 17px;
+  font-family: Dosis;
+  font-weight: bold;
+  color: #3D566E!important;
+
+ }
+ .nav-link:hover {
+  font-weight: 600px;
+  color:#00bba7!important;
+
+ }
+ .container-fliud {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.fade-in{
+  font-size: 75px;
+  font-weight: 700px;
+  animation: fadeIn 3s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-transform: uppercase;
+  display: block;
+
+}
+.fade-out{
+  font-size: 30px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-transform: uppercase;
+  display: block;
+  animation: fadeOut 3s ease;
+
+
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+
+  }
+  to{
+    opacity: 1;
+  }
+  0%{
+      margin-top: -30px;
+  }
+  
+}
+
+@keyframes fadeOut{
+  from{
+    opacity: 0;
+
+  }
+  to{
+    opacity: 1;
+  }
+  0%{
+    margin-top: 30px;
+  }
+}
+.position-relative{
+  height: 320px;
+  margin-top: -100px;
+  border: 2px solid white;
+  background-color: white;
+
+}
+.position-relative i{
+  color: white;
+  padding:15px;
+  border-radius: 50%;
+  background-color: #00bba7;
+
+}
+.position-relative h4{
+  line-height: 55px;
+
+}
+.position-relative p{
+  font-size: 18px;
+
+}
+.justify-content-center span{
+  color: #D0D0D0;
+
+  
+  }
+  .single-content button{
+    padding: 10px;
+    width: 35%;
+    border: 1px solid white;
+    background:#20B2AA;
+    color: white;
+
+  }
+  .single-content{
+    position: relative;
+    transition: .3s;
+    box-shadow: 10px 20px 20px; rgba(0,0,0,0.8);
+
+  }
+  .single-content .text-content,
+  .single-content:after{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+
+  }
+  .single-content:after{
+    content: '';
+    display: block;
+    background:#20B2AA;
+    top: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transform: rotate3d(-1,1,0,100deg);
+    transition: .4s;
+  }
+  .single-content:hover:after{
+    opacity: .9;
+    transform: rotate3d(0,0,0,0deg);
+
+  }
+  .single-content img{
+    width: 100%;
+    height: auto;
+  }
+  .text-content{
+    top: 10%;
+    opacity: 0;
+    z-index: 1;
+    
+    transition: .3s;
+    text-align: center;
+    color: #fff;
+  }
+  .single-content:hover .text-content{
+    opacity: 1;
+   
+
+  }
+  .text-content button:hover{
+   
+    background-color: white;
+    color: black;
+   
+
+  }
+  #Browse{
+    padding: 12px;
+    width: 23%;
+    background:#20B2AA;
+    border: none;
+    color: white;
+
+  }
+  #all{
+    background:#20B2AA;
+    border: none;
+
+  }
+  #all i{
+    color: white;
+    border: none;
+
+  }
+i {
+    font-style: italic;
+}
+.card-body i{
+  line-height: 20px;
+
+}
+.infoareaicon {
+    font-size: 40px;
+    position: absolute;
+    top: -18px;
+    left: 43%;
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #00bba7;
+    
+}
+.animated-text{
+  color: #fff;
+  background-color: #00bba7;
+
+}
+.line > h4{
+  animation: anim 1.4s ease;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  font-size:25px;
+  font-weight:300;
+  color:#fff;
+
+  
+}
+@keyframes anim{
+
+  0%{
+       transform: translate(0,-100%);
+  }
+
+
+}
+.callactionbutton {
+  border:1px solid;
+  margin-left:30px;
+}
+.footer {
+    background: #222;
+    color: #999;
+    font-size: 14px;
+    padding: 60px 0 40px 0;
+   
+}
+ 
+
+.social-icon i{
+  
+  padding: 22px;
+  color: white;
+
+   
+  
+}
+@media (min-width: 768px) and (max-width: 1300px){
+  body{
+    background-color: lightgreen;
+
+}
+.position-relative{
+  margin-top: 0;
+}
+
+}
